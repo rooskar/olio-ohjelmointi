@@ -1,9 +1,9 @@
-#include <iostream>
+#include "italianchef.h"
 
-using namespace std;
 
-int main()
-{
-    cout << "Hello World!" << endl;
+int main() {
+    ItalianChef italianChef("Mario", 100, 250);
+    italianChef.makePasta(100, 250);
+
     return 0;
 }
